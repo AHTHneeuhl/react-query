@@ -432,6 +432,19 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.9.0.tgz#9033238b41c4cbe1e961eccb3f79e2c588328cf6"
   integrity sha512-bV63itrKBC0zdT27qYm6SDZHlkXwFL1xMBuhkn+X7l0+IIhNaH5wuuvZKp6eKhCD4KFhujhfhCT1YxXW6esUIA==
 
+"@tanstack/query-core@5.0.0-beta.28":
+  version "5.0.0-beta.28"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.0-beta.28.tgz#71bcad287609937e3859068cf04f0db97f771b91"
+  integrity sha512-iYAN8KM2BV1kJ6PhvP0OVbT9XuGMFasjGZVhigRhcO/svY0FNexQtwQmvxff4yUA4+F5TGTE2Snlz1vlwe/2uQ==
+
+"@tanstack/react-query@^5.0.0-beta.28":
+  version "5.0.0-beta.28"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.0.0-beta.28.tgz#9f283341b46afdc984271ee93012987737c50f79"
+  integrity sha512-00kPUsVlOOpRHVDggKxqDVMwIXjPm/9TuMabxkiNnrj8QTeB4AIztUqzv3XH2zch8RQ+2VBCm0x/1d+MgmRvzA==
+  dependencies:
+    "@tanstack/query-core" "5.0.0-beta.28"
+    client-only "0.0.1"
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -644,6 +657,11 @@ chalk@^4.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+client-only@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
+  integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
 
 color-convert@^1.9.0:
   version "1.9.3"
